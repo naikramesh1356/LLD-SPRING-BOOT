@@ -1,4 +1,4 @@
-package model;
+package com.example.newproject.model;
 
 public class User {
     public int id;
@@ -8,5 +8,8 @@ public class User {
         this.id=id;
         this.role=role;
     }
+
+    public int getId() {return  id;}
+    public String getRole() {return role;}
 
 }
